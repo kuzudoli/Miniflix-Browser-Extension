@@ -1,0 +1,12 @@
+{
+    "name":"Miniflix - Netflix Mini Window Mode",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "description":"Watch your netflix with picture in picture mode while you working",
+    "content_scripts":[
+        {
+            "js":["init.js"],
+            "matches":["https://www.netflix.com/*"]
+        }
+    ]
+}
